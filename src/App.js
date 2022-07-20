@@ -1,5 +1,5 @@
 import React from 'react';
-import IssueList  from './IssueList';
+import IssueList  from './issue-components/issueList';
 
 class MainContainer extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import IssueFilter  from './issuesTrack';
-import IssueTable from './issuesTrack';
-import IssueAdd from './issuesTrack';
+import IssueFilter from './issueTrack';
+import IssueTable from './issueTable';
+import IssueAdd from './issueAdd';
 
 class IssueList extends React.Component {
     render() {
@@ -13,8 +13,8 @@ class IssueList extends React.Component {
       <React.Fragment>
         <h1>IssueTracker</h1>
         <IssueFilter />
-        <IssueTable />
-        <IssueAdd />
+         <IssueTable />
+        <IssueAdd /> 
       </React.Fragment>
       );
     }
