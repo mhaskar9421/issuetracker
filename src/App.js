@@ -1,4 +1,5 @@
 import React from 'react';
+import IssueList  from './IssueList';
 
 class MainContainer extends React.Component {
   render() {
@@ -7,9 +8,9 @@ class MainContainer extends React.Component {
     const message = helloConti.join('  ');
 
     return (
-      <div title='Outer div'>
-        <h1>{message}</h1>
-      </div>
+      // <div title='Outer div'>
+         <IssueList/>
+      // </div>
     );
   }
 }
