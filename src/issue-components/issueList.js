@@ -1,7 +1,7 @@
 import React from 'react';
-import IssueFilter from './issueTrack';
-import IssueTable from './issueTable';
-import IssueAdd from './issueAdd';
+import IssueFilter from './issue-sub-component/issueTrack';
+import IssueTable from './issue-sub-component/issueTable';
+import IssueAdd from './issue-sub-component/issueAdd';
 
 class IssueList extends React.Component {
     render() {
