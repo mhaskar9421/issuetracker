@@ -5,9 +5,6 @@ import IssueAdd from './issue-sub-component/issueAdd';
 
 class IssueList extends React.Component {
     render() {
-    //   const continents = ["India","Russia"];
-    //   const helloConti = Array.from(continents, c => `How are you ${c}`);
-    //   const message = helloConti.join('  ');
   
       return (
       <React.Fragment>
