@@ -1,5 +1,5 @@
 import React from "react";
-
+// child component
 export default class IssueRow extends React.Component {
   render() {
     const style = this.props.rowStyle;
@@ -7,10 +7,10 @@ export default class IssueRow extends React.Component {
       // <div> Placeholder for IssueRow</div>
       <tr>
         <td style={style}>{this.props.issue_id}</td>
-        {/* one way to pass teh data fom Parent to child  */}
+        {/* one way to pass the data fom Parent to child  */}
         {/* <td style ={style}>{this.props.issue_title}</td> one */}
-        {/* other wayto pass the data to  */}
-        <td style={style}> {this.props.children} </td>
+        {/* other way to pass the data from Parent to child */}
+        <td style={style}>{this.props.children}</td>
       </tr>
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import IssueRow from "./issueRow";
-
+// parent component
 export default class IssueTable extends React.Component {
   render() {
     const rowStyle = { border: "1px solid silver", padding: 4 };
