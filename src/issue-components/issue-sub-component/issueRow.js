@@ -9,7 +9,8 @@ export default class IssueRow extends React.Component {
         <td style={style}>{this.props.issue_id}</td>
         {/* one way to pass teh data fom Parent to child  */}
         {/* <td style ={style}>{this.props.issue_title}</td> one */}
-        {/* otehr wayto pass tehdata to  */}
+        {/* other wayto pass the data to  */}
+        <td style={style}> {this.props.children} </td>
       </tr>
     );
   }
